@@ -8,7 +8,7 @@ interface ListUserProp {
 const ListUser = ({ users }: ListUserProp) => {
   return (
     <>
-      <div className="container mx-auto pb-6 px-4 sm:px-8">
+      <div className="container mx-auto pb-6 px-8">
         <div className="flex items-center justify-center min-w-full shadow md:shadow-xl md:pl-4 pt-6 rounded-lg overflow-hidden">
           <tbody>
             {users.map((user) => {
